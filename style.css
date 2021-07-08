@@ -9,8 +9,8 @@ body{
 	width: 100%;
 	height: 100vh;
 	background: #fff
-	url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif')
-	 no-repeat center center;	
+	url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif');
+	 no-repeat center;	
 	z-index: 99999;
 }
 .nabver{
