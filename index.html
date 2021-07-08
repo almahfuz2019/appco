@@ -16,7 +16,8 @@
 <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="myFunction()">
+    <div id="loading"></div>
     <!--nav-->
 
     <section class="nabver"> 
@@ -230,7 +231,19 @@
 
 
 
+<script>
+    // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
 
+    function myFunction(){
+        preloader.style.display = 'none';
+    };
+</script>
         
 </body>
 </html>
