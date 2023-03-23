@@ -1,0 +1,1 @@
+border-left: 4px solid #B15EF0;
